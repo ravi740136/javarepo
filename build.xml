@@ -1,0 +1,16 @@
+<project default="test1">
+<target name="test1">
+	<delete dir="copydir"></delete>
+<copy todir="copydir">
+<fileset dir=".">
+<include name="*.txt"/>
+
+</fileset>
+
+
+</copy>
+
+</target>
+
+
+</project>
